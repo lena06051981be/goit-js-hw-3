@@ -16,3 +16,12 @@ console.log(typeof username);
 // const value = prompt("Please enter a number!");
 // console.log(typeof value); // "string"
 // console.log(value); // "5"
+function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+  // Change code below this line
+  const totalPrice = orderedQuantity * pricePerDroid + deliveryFee;
+  const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
+  // Change code above this line
+  return message;
+}
+let result = makeOrderMessage(2, 100, 50);
+console.log(result); // 30
