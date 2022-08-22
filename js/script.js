@@ -39,6 +39,7 @@ const apartment = {
   },
 };
 
+// 
 // Change code below this line
 apartment.area = 60;
 apartment.rooms = 3;
