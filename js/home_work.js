@@ -14,5 +14,5 @@ console.log(aptDescr);
 const aptPrice = apartment["price"];
 console.log(aptPrice);
 const aptTags = apartment["tags"];
-console.log(aptTags);
+console.table(aptTags);
 // Change code above this line
