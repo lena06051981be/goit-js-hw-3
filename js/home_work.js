@@ -16,3 +16,17 @@ console.log(aptPrice);
 const aptTags = apartment["tags"];
 console.table(aptTags);
 // Change code above this line
+
+//
+const students = [
+  { name: "Манго", courses: ["математика", "фізика"] },
+  { name: "Полі", courses: ["інформатика", "математика"] },
+  { name: "Ківі", courses: ["фізика", "біологія"] },
+];
+
+students.map((student) => student.courses);
+// [['математика', 'фізика'], ['інформатика', 'математика'], ['фізика', 'біологія']]
+console.log(students.map((student) => student.courses));
+students.flatMap((student) => student.courses);
+// ['математика', 'фізика', 'інформатика', 'математика', 'фізика', 'біологія'];
+console.log(students.flatMap((student) => student.courses));
