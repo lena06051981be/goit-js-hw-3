@@ -83,21 +83,21 @@
 // // cart.add({ name: "🍓", price: 110 });
 // // cart.add({ name: "🍓", price: 110 });
 // // cart.add({ name: "🍓", price: 110 });
-const numbers = [5, 10, 15, 20, 25];
+// const numbers = [5, 10, 15, 20, 25];
 
 // const total = numbers.reduce((acc, number) => acc + number, 0);
 // console.log(total);
 
 //
 //
-const numbers3 = [5, 10, 15, 20, 25];
+// const numbers3 = [5, 10, 15, 20, 25];
 
-const total = numbers3.reduce((acc, number) => {
-  console.log("number:", number);
-  console.log("acc:", acc);
-  return acc + number;
-}, 0);
-console.log(total);
+// const total = numbers3.reduce((acc, number) => {
+//   console.log("number:", number);
+//   console.log("acc:", acc);
+//   return acc + number;
+// }, 0);
+// console.log(total);
 
 // accumulator = 0 -> number = 5 -> return 0 + 5
 // accumulator = 5 -> number = 5 -> return 5 + 10
