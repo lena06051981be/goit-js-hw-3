@@ -16,6 +16,7 @@ console.log(typeof username);
 // const value = prompt("Please enter a number!");
 // console.log(typeof value); // "string"
 // console.log(value); // "5"
+
 function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
   // Change code below this line
   const totalPrice = orderedQuantity * pricePerDroid + deliveryFee;
@@ -39,7 +40,7 @@ const apartment = {
   },
 };
 
-// 
+//
 // Change code below this line
 apartment.area = 60;
 apartment.rooms = 3;
